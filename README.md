@@ -36,7 +36,7 @@ All supplemental materials are provided in the GitHub repository (https://github
 
 The test results of different LLMs on the CEE-QA test question set are shown below. Welcome global scholars to test their LLM works on CEE-QA, please see the following specification of reusing the QA question set.
 
-| General-purpose large language models |	Contributors |	Average correctness ratio |	SD1 |	SD2 |	SD3 |	SD4 |	SD5 |	SD6	| SD7 |	SD8 |	SD9 |	SD10 |	SD11 |	SD12 |	SD13 |	SD14 |	SD15  | SD16	| SD17 |	SD18 |	Ranking |
+| General-purpose large language models |	Contributors |	Average correctness ratio |	KSD1 |	KSD2 |	KSD3 |	KSD4 |	KSD5 |	KSD6	| KSD7 |	KSD8 |	KSD9 |	KSD10 |	KSD11 |	KSD12 |	KSD13 |	KSD14 |	KSD15  | KSD16	| KSD17 |	KSD18 |	Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | Knowledge-incorporated ERNIE-Bot-turbo4.0 |	Baidu & The authors |	0.7778 |	0.7419 |	0.7869 |	0.6883 |	0.6834 |	0.7961 |	0.8539 |	0.7746 |	0.8889 |	0.8070 | 0.8618 | 0.8706 | 0.9155 |	0.7188 | 0.7813 |	0.7770 |	0.7902 |	0.7205 |	0.8368 | 1 |
 | Original ERNIE-Bot-turbo4.0 |	Baidu |	0.7389 |	0.7097 |	0.7732 |	0.6753 |	0.6154 |	0.7913 |	0.8371 |	0.7664 |	0.7460 |	0.7719 |	0.8487 |	0.8000 | 0.7817 | 0.6953 |	0.7344 |	0.7338 |	0.7816 |	0.6568 |	0.7737 | 2 |
@@ -56,6 +56,36 @@ The test results of different LLMs on the CEE-QA test question set are shown bel
 | Original Qianfan-Chinese-Llama-2-7B	| Baidu	| 0.3740 |	0.4194 |	0.3251 |	0.4481 |	0.3402 |	0.4417 |	0.4831 |	0.4713 |	0.3810 |	0.2807 |	0.4967 |	0.3000 |	0.3310 |	0.3301 |	0.4219 |	0.3597 |	0.3420 |	0.2818 |	0.3789 |	16 |
 | Knowledge-incorporated Llama-2-13b	| Meta AI & The authors	| 0.3189 |	0.3226 |	0.2732 |	0.3377 |	0.3521 |	0.2718 |	0.3202 |	0.2705 |	0.3254 |	0.3509 |	0.3618 |	0.3765 |	0.3521 |	0.2734 |	0.3555 |	0.3345 |	0.2845 |	0.3023 |	0.4211 |	17 |
 | Original Llama-2-13b	| Meta AI |	0.2596 |	0.2903 |	0.2022 |	0.3052 |	0.2574 |	0.2330 |	0.2753 |	0.2582 |	0.2778 |	0.2807 |	0.2796 |	0.2471 |	0.3310 |	0.2422 |	0.2461 | 0.2482 |	0.2155 |	0.2773 |	0.3158 |	18 |
+
+# 4. Reuse of the CEE-QA question set
+
+The CEE-QA test question set containing 2,921 questions is manually annotated with four features, including the question source, single-answer question or multiple-answer question, and calculation question or non-calculation question.
+
+![CEE-QA test question set in the Hugging Face repository](https://github.com/user-attachments/assets/c99832e5-16c4-430e-a596-32700d94bc51)
+
+↑↑↑The CEE-QA test question set in the Hugging Face repository
+
+More information about the qustion set can be found through these links (https://huggingface.co/datasets/AnonymousSite/QA_test_question_set_for_CEE)
+
+# 5. Reuse of the codes for running original LLMs, CEE knowledge-incorporated LLMs and CEE-QA prototype
+ 
+Closed-source LLMs are API-only, and open-source LLMs are deployed directly on the AutoDL Cloud server.
+
+![Codes for running CEE original LLMs](https://github.com/user-attachments/assets/8ac87dce-9683-415e-ae02-42884970c728)
+
+↑↑↑Codes for testing original LLMs
+
+![Codes for running CEE knowledge-incorporated LLMs](https://github.com/user-attachments/assets/7fa2f8dc-091c-4797-863a-ebe738a97519)
+
+↑↑↑Codes for testing CEE knowledge-incorporated LLMs
+
+![Codes for deploying and running the CEE-QA prototype](https://github.com/user-attachments/assets/f0dc7543-c729-44f5-af82-eab18aca8462)
+
+↑↑↑Codes for deploying and running CEE-QA prototype
+
+
+
+
 
 
 
