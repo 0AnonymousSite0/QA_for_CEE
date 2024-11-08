@@ -68,16 +68,50 @@ The CEE-QA test question set containing 2,921 questions is manually annotated wi
 More information about the qustion set can be found through these links (https://huggingface.co/datasets/AnonymousSite/QA_test_question_set_for_CEE)
 
 # 5. Reuse of the codes for running original LLMs, CEE knowledge-incorporated LLMs and CEE-QA prototype
- 
+
+## 5.1 Environment set
+
+All codes are developed on Python 3.10, and the IDE adopted is PyCharm (Professional version). The codes also support GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130. The GIS platform is Arcgis Pro 2.3, and its license is necessary. 
+
+aiohttp==3.9.3
+
+aiolimiter==1.1.0
+
+appdirs==1.4.4
+
+asgiref==3.7.2
+
+atomicwrites==1.4.0
+
+backoff==2.2.1
+
+backports.weakref==1.0.post1
+
+bce-python-sdk==0.9.4
+
+bcrypt==4.1.2
+
+brotlipy==0.7.0
+
+build==1.0.3
+
+......
+
+Please refer to the supplementary materials for the complete requirement file.
+
+Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the images). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
+
+## 5.2 Codes for running the LLMs
+
 Closed-source LLMs are API-only, and open-source LLMs are deployed directly on the AutoDL Cloud server.
 
-![Codes for running CEE original LLMs](https://github.com/user-attachments/assets/8ac87dce-9683-415e-ae02-42884970c728)
+![Codes for running CEE original LLMs](https://github.com/user-attachments/assets/fe16aa00-a88c-4078-b216-59c1ed142874)
 
-↑↑↑Codes for testing original LLMs
+↑↑↑Codes for running original LLMs
 
-![Codes for running CEE knowledge-incorporated LLMs](https://github.com/user-attachments/assets/7fa2f8dc-091c-4797-863a-ebe738a97519)
+![Codes for running CEE knowledge-incorporated LLMs](https://github.com/user-attachments/assets/e8172a3b-39be-4265-b6b5-77fae383bdca)
 
-↑↑↑Codes for testing CEE knowledge-incorporated LLMs
+↑↑↑Codes for running CEE knowledge-incorporated LLMs
 
 ![Codes for deploying and running the CEE-QA prototype](https://github.com/user-attachments/assets/f0dc7543-c729-44f5-af82-eab18aca8462)
 
