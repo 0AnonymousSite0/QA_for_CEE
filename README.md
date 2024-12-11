@@ -1,4 +1,4 @@
-# Building the knowledge graph of engineering economic to augmenting question-answering performance of general-purpose LLMs: A case of China
+# Building the knowledge graph of construction engineering economics to augment question-answering performance of general-purpose LLMs: A case of China
 
 ## !!! As the paper is under review, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
