@@ -74,6 +74,10 @@ The CEE-QA test question set containing 2,921 questions is manually annotated wi
 
 ↑↑↑The CEE-QA test question set in the Hugging Face repository
 
+![The annotations of CEE questions’ characteristics](https://github.com/user-attachments/assets/948babe0-14d3-4a77-b449-7e1c004fae86)
+
+↑↑↑The annotations of CEE questions’ characteristics
+
 More information about the qustion set can be found through these links (https://huggingface.co/datasets/AnonymousSite/QA_test_question_set_for_CEE)
 
 # 6. Reuse of the codes for running original LLMs, CEE knowledge-incorporated LLMs and CEE-QA prototype
