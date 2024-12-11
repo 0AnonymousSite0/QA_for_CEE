@@ -28,7 +28,7 @@
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, and S3 are arranged in the order shown in this table.
 
-![Inventory of supplemental materials](https://github.com/user-attachments/assets/68301b81-fafb-48e8-9f15-a6b514b9a1e7)
+![Inventory of supplemental materials](https://github.com/user-attachments/assets/caecc6e5-9e3b-40eb-a7da-baefa8f7e41b)
 
 All supplemental materials are provided in the GitHub repository (https://github.com/0AnonymousSite0/QA_for_CEE). Besides the GitHub repository, the CEE-QA test question set is shared in the Hugging Face repository (https://huggingface.co/datasets/AnonymousSite/QA_test_question_set_for_CEE).
 
@@ -57,7 +57,16 @@ The test results of different LLMs on the CEE-QA test question set are shown bel
 | Knowledge-incorporated Llama-2-13b	| Meta AI & The authors	| 0.3189 |	0.3226 |	0.2732 |	0.3377 |	0.3521 |	0.2718 |	0.3202 |	0.2705 |	0.3254 |	0.3509 |	0.3618 |	0.3765 |	0.3521 |	0.2734 |	0.3555 |	0.3345 |	0.2845 |	0.3023 |	0.4211 |	17 |
 | Original Llama-2-13b	| Meta AI |	0.2596 |	0.2903 |	0.2022 |	0.3052 |	0.2574 |	0.2330 |	0.2753 |	0.2582 |	0.2778 |	0.2807 |	0.2796 |	0.2471 |	0.3310 |	0.2422 |	0.2461 | 0.2482 |	0.2155 |	0.2773 |	0.3158 |	18 |
 
-# 4. Reuse of the CEE-QA question set
+# 4. Reuse of the CEE-KG with three optional versions
+
+![Three optional versions of CEE-KG](https://github.com/user-attachments/assets/4afb80a9-3d02-4ecd-a360-f0ed6bd4ad8a)
+
+↑↑↑Three optional versions of CEE-KG
+
+The CEE-KG is available through this link (https://drive.google.com/drive/folders/1TnIMULnN3V1R3GsU-aFy64AdCx6lEVaK?usp=drive_link).
+
+
+# 5. Reuse of the CEE-QA question set
 
 The CEE-QA test question set containing 2,921 questions is manually annotated with four features, including the question source, single-answer question or multiple-answer question, and calculation question or non-calculation question.
 
@@ -67,9 +76,9 @@ The CEE-QA test question set containing 2,921 questions is manually annotated wi
 
 More information about the qustion set can be found through these links (https://huggingface.co/datasets/AnonymousSite/QA_test_question_set_for_CEE)
 
-# 5. Reuse of the codes for running original LLMs, CEE knowledge-incorporated LLMs and CEE-QA prototype
+# 6. Reuse of the codes for running original LLMs, CEE knowledge-incorporated LLMs and CEE-QA prototype
 
-## 5.1 Environment set
+## 6.1 Environment set
 
 All codes are developed on Python 3.10, and the IDE adopted is PyCharm (Professional version). The codes also support GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130. The GIS platform is Arcgis Pro 2.3, and its license is necessary. 
 
@@ -101,7 +110,7 @@ Please refer to the supplementary materials for the complete requirement file.
 
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the images). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
-## 5.2 Codes for running the LLMs
+## 6.2 Codes for running the LLMs
 
 Closed-source LLMs are API-only, and open-source LLMs are deployed directly on the AutoDL Cloud server.
 
