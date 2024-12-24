@@ -12,7 +12,8 @@
 
 ↑↑↑Multiple CEE knowledge-incorporated LLMs simultaneously answering the CEE-related questions
 
-![GIF for running video of CEE-QA prototype](https://github.com/user-attachments/assets/afd6f4c4-45fc-4cc4-ba82-7f2d55ac0d2b)
+![GIF for running video of CEE-QA prototype](https://github.com/user-attachments/assets/9d24b019-2fa3-41f6-8d25-5bad45a3235e)
+
 
 ↑↑↑CEE-QA prototype answering the CEE-related question
 
